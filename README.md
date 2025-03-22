@@ -1,2 +1,3 @@
-# Environmental-Chamber-Control-System
-An embedded environmental chamber control unit using an STC89 MCU to control relays based on temperature and humidity from AHT21 sensors, with real-time data displayed on an 8x8 SPI matrix and UART-based serial monitoring.
+# Environmental Chamber Unit
+
+This project is an embedded control system built using an STC89-based microcontroller to regulate temperature and humidity in a closed environment. It uses two AHT21 sensors via I2C for real-time monitoring and controls four relays to operate a heater, fan, CO₂ system, and dehumidifier. Data is displayed on an 8x8 LED matrix over SPI, while users can adjust the target temperature using push buttons. The system also uses UART for serial communication, making it easy to monitor live conditions and device status. Designed for precision and reliability, this setup demonstrates a complete solution for automated environmental regulation.
